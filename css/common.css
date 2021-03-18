@@ -120,6 +120,13 @@ a img:hover {
 }
 
 
+/*32px*/
+
+.font_sl {
+    font-size: 1.888em;
+}
+
+
 /*24px*/
 
 .font_l {
@@ -192,6 +199,12 @@ a img:hover {
     }
     .sp_shadow {
         text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .font_sl {
+        font-size: 1.0em;
     }
 }
 
@@ -396,6 +409,16 @@ a img:hover {
 .ph15 {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.trasX145px {
+    transform: translateX(145px);
+}
+
+@media screen and (max-width:480px) {
+    .trasX145px {
+        transform: translateX(-15px);
+    }
 }
 
 @media screen and (max-width: 767px) {

@@ -431,7 +431,7 @@ cta-sec01
 }
 
 .cta-sec01 .point2 {
-    background: url(../img/pc_sec07_p2_bg.png) no-repeat center top/contain;
+    background: url(../img/pc_cta_bg.png) no-repeat center top/contain;
     padding: 100px 0;
 }
 
@@ -439,6 +439,7 @@ cta-sec01
     float: right;
     padding-left: 30px;
     padding-bottom: 15px;
+    transform: translate(-20px, 0px);
 }
 
 .cta-sec01 .point3 {

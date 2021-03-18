@@ -53,11 +53,11 @@ Header
     }
     header .logo {
         max-width: 100%;
-        min-width: 186px;
+        min-width: 230px;
         transform: translateX(-8px);
     }
     header .contact a:first-child p {
-        padding: 20px 0 20px 13px;
+        padding: 20px 0 20px 6px;
     }
     header .contact a:last-child p {
         background-color: #01896e;
@@ -217,15 +217,15 @@ cta-sec01
         margin-top: 0;
     }
     .cta-sec01 .point2 img.fr {
-        float: inherit;
-        width: 80%;
+        width: 33%;
         padding-left: 0;
         margin: 0 auto;
+        transform: translate(-5px, -25px);
     }
     .cta-sec01 .point2,
     .cta-sec01 .point3,
     .cta-sec01 .point4 {
-        padding: 60px 0 30px;
+        padding: 90px 0 30px;
     }
     .cta-sec01 h3 {
         background-color: #fff;
