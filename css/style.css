@@ -506,6 +506,10 @@ sec10
     color: #f61b1b;
 }
 
+.sec10 .check_list2 li:before {
+    color: #f61b1b;
+}
+
 .sec10_card {
     position: relative;
     padding: 45px 30px;

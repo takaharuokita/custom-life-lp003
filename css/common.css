@@ -238,7 +238,7 @@ a img:hover {
 }
 
 .mt45 {
-    margin-top: 45px;
+    margin-top: 45px!important;
 }
 
 .mt60 {
@@ -347,6 +347,16 @@ a img:hover {
 
 .pt120 {
     padding-top: 120px;
+}
+
+.pt150 {
+    padding-top: 150px;
+}
+
+@media screen and (max-width:480px) {
+    .pt150 {
+        padding-top: 25px!important;
+    }
 }
 
 .pb0 {
@@ -864,6 +874,85 @@ button img:hover {
     content: "\f4d8";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    top: 0;
+    left: -4px;
+    color: orange;
+}
+
+.list_border {
+    border-bottom: 2px dashed #000;
+}
+
+.list_border_stop {
+    border-bottom: 2px dashed #000;
+    display: inline-block;
+}
+
+
+/*
+ check_list2
+ ----------------------------------------------------------- */
+
+.check_list2 li {
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 3px;
+}
+
+.check_list2 li:last-child {
+    margin-bottom: 0;
+}
+
+.check_list2 li:nth-child(1)::before {
+    position: absolute;
+    content: "\f27a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: rotateY(180deg);
+    top: 0;
+    left: 0;
+    color: orange;
+}
+
+.check_list2 li:nth-child(2)::before {
+    position: absolute;
+    content: "\f27a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: rotateY(180deg);
+    top: 0;
+    left: 2px;
+    color: orange;
+}
+
+.check_list2 li:nth-child(3)::before {
+    position: absolute;
+    content: "\f27a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: rotateY(180deg);
+    top: 0;
+    left: 2px;
+    color: orange;
+}
+
+.check_list2 li:nth-child(4)::before {
+    position: absolute;
+    content: "\f27a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: rotateY(180deg);
+    top: 0;
+    left: -4px;
+    color: orange;
+}
+
+.check_list2 li:nth-child(5)::before {
+    position: absolute;
+    content: "\f27a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: rotateY(180deg);
     top: 0;
     left: -4px;
     color: orange;
