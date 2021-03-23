@@ -17,6 +17,19 @@ html body {
     font-weight: 700;
 }
 
+body {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* IE, Edge ?? */
+    scrollbar-width: none;
+    /* Firefox ?? */
+}
+
+body::-webkit-scrollbar {
+    /* Chrome, Safari ?? */
+    display: none;
+}
+
 
 /*
 セクション間余白
@@ -91,9 +104,9 @@ h2 {
 ----------------------------------------------------------- */
 
 .highlight {
-    background: -webkit-linear-gradient(transparent 70%, #f6eb3e 70%);
-    background: -o-linear-gradient(transparent 70%, #f6eb3e 70%);
-    background: linear-gradient(transparent 70%, #f6eb3e 70%);
+    background: -webkit-linear-gradient(transparent 70%, #fed049 70%);
+    background: -o-linear-gradient(transparent 70%, #fed049 70%);
+    background: linear-gradient(transparent 70%, #fed049 70%);
     font-weight: bold;
 }
 
@@ -431,8 +444,8 @@ cta-sec01
 }
 
 .cta-sec01 .point2 {
-    background: url(../img/pc_cta_bg.png) no-repeat center top/contain;
-    padding: 100px 0;
+    background: url(../img/pc_cta_bg.png) no-repeat center top/contain #fffff2;
+    padding: 140px 0 100px;
 }
 
 .cta-sec01 .point2 img.fr {

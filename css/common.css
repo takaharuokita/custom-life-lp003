@@ -421,6 +421,22 @@ a img:hover {
     }
 }
 
+.trasX270px {
+    transform: translateX(270px);
+}
+
+@media screen and (min-width:481px) and (max-width:1300px) {
+    .trasX270px {
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .trasX270px {
+        transform: translateX(-15px);
+    }
+}
+
 @media screen and (max-width: 767px) {
     .spmt0 {
         margin-top: 0;
