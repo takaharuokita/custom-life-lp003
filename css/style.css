@@ -222,13 +222,14 @@ header .contact {
 }
 
 header .tel {
-    width: 410px;
+    width: 210px;
     padding-right: 15px;
     line-height: 1.1;
 }
 
 header .contact .cta-top {
     height: 80px;
+    width: 300px;
 }
 
 header button {
@@ -260,6 +261,33 @@ header .tel_tit {
     margin-bottom: 10px;
 }
 
+@media screen and (min-width:1481px) and (max-width:1600px) {
+    header .logo {
+        transform: translateX(-100px);
+    }
+    header button {
+        font-size: 32px;
+        width: 310px;
+    }
+    header .tel {
+        width: 270px;
+        padding-right: 15px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (min-width:961px) and (max-width:1480px) {
+    header .logo {
+        transform: translateX(0px);
+    }
+    header .tel {
+        width: 250px;
+    }
+    header .contact {
+        transform: translateX(75px);
+    }
+}
+
 
 /*
 MV
@@ -277,6 +305,16 @@ MV
 
 h1 {
     margin: 0;
+}
+
+@media screen and (min-width:980px) and (max-width:1680px) {
+    .mv {
+        background: url(../img/pc_mv_bgx0.5.jpg) no-repeat center center/contain;
+    }
+    .mv_txt img {
+        width: auto;
+        opacity: 0;
+    }
 }
 
 
@@ -324,6 +362,12 @@ sec02
     color: #fed049;
 }
 
+@media screen and (min-width:980px) and (max-width:1680px) {
+    .sec02_bg {
+        left: -15px;
+    }
+}
+
 
 /*
 sec03
@@ -331,7 +375,6 @@ sec03
 
 .sec03 h2 img {
     max-width: 1106px;
-    margin-left: 80px;
 }
 
 .sec03 .sec03_nm {
@@ -547,7 +590,7 @@ sec11
 .sec11_q {
     position: relative;
     padding: 15px 75px 15px 105px;
-    background: #106cba;
+    background: #282846;
     color: #fff;
     font-size: 30px;
     font-weight: bold;
@@ -957,4 +1000,16 @@ footer .copy {
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+}
+
+@media screen and (min-width:961px) and (max-width:1480px) {
+    .shiny-btn::after {
+        height: 200%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:960px) {
+    .shiny-btn::after {
+        height: 200%;
+    }
 }

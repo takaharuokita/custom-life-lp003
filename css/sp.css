@@ -57,11 +57,10 @@ Header
         transform: translateX(-8px);
     }
     header .contact a:first-child p {
-        padding: 20px 0 20px 6px;
+        display: none;
     }
     header .contact a:last-child p {
-        background-color: #01896e;
-        padding: 22px 20px 23px;
+        height: 60px;
     }
     header .contact img {
         max-height: 20px;
@@ -86,6 +85,12 @@ Header
     }
     h2 {
         margin-bottom: 30px;
+    }
+    header button {
+        padding-left: 41px;
+        padding-bottom: 17px;
+        text-align: left;
+        font-size: 15px;
     }
     /*
 MV
@@ -436,6 +441,27 @@ Footer
     }
     .thanks_btn {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width:322px) and (max-width:413px) {
+    header button {
+        padding-left: 20px;
+        padding-bottom: 17px;
+        text-align: left;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    header .logo {
+        min-width: 200px;
+    }
+    header button {
+        padding-left: 10px;
+        padding-bottom: 17px;
+        text-align: left;
+        font-size: 13px;
     }
 }
 

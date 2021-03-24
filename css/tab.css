@@ -1,164 +1,181 @@
 @charset "UTF-8";
+
 /* CSS Document */
+
+
 /*タブレット用スタイル*/
-@media (min-width: 768px) and (max-width: 959px) {
-/*
+
+@media (min-width: 768px) and (max-width: 979px) {
+    /*
 セクション間余白
 ----------------------------------------------------------- */
-  section {
-    padding: 60px 0;
-  }
-  footer {
-    padding: 30px 0;
-  }
-/*
+    section {
+        padding: 60px 0;
+    }
+    footer {
+        padding: 30px 0;
+    }
+    /*
 はみ出し画像中央
 ----------------------------------------------------------- */
-  .wic1 img {
-    width: 1600px;
-    max-width: 1600px;
-  }
-  .wic1 {
-    margin-left: calc(50% - 800px);
-  }
-  .wic2 img {
-    width: 1000px;
-    max-width: 1000px;
-  }
-  .wic2 {
-    margin-left: calc(50% - 500px);
-  }
-  .wic3 img {
-    width: 1200px;
-    max-width: 1200px;
-  }
-  .wic3 {
-    margin-left: calc(50% - 600px);
-  }
-/*
+    .wic1 img {
+        width: 1600px;
+        max-width: 1600px;
+    }
+    .wic1 {
+        margin-left: calc(50% - 800px);
+    }
+    .wic2 img {
+        width: 1000px;
+        max-width: 1000px;
+    }
+    .wic2 {
+        margin-left: calc(50% - 500px);
+    }
+    .wic3 img {
+        width: 1200px;
+        max-width: 1200px;
+    }
+    .wic3 {
+        margin-left: calc(50% - 600px);
+    }
+    /*
 Header
 ----------------------------------------------------------- */
-header .contact {
-  margin-left: 15px;
-}
-/*
+    header .contact {
+        margin-left: 15px;
+    }
+    header .logo {
+        transform: translateX(-13px);
+    }
+    header .contact {
+        transform: translateX(0px);
+        width: 400px;
+    }
+    header .contact .cta-top {
+        height: 80px;
+        width: 195px;
+    }
+    header button {
+        font-size: 22px;
+    }
+    /*
 Nav
 ----------------------------------------------------------- */
-/*
+    /*
 MV
 ----------------------------------------------------------- */
-.mv {
-  background-position: calc(50% + -70px) 0;
-}
-.mv h1 img {
-  width: 130%;
-}
-/*
+    .mv {
+        background: url(../img/sp_mv_txt.png) no-repeat center center/contain;
+    }
+    .mv_txt img {
+        width: auto;
+        opacity: 0;
+    }
+    /*
 CTA
 ----------------------------------------------------------- */
-
-/*
+    /*
 sec01
 ----------------------------------------------------------- */
-/*
+    /*
 sec02
 ----------------------------------------------------------- */
-/*
+    .sec02_bg {
+        left: -15px;
+    }
+    /*
 sec03
 ----------------------------------------------------------- */
-.sec03 h2 img{
-	max-width: 840px;
-	margin-left: 60px;
-}
-
-/*
+    .sec03 h2 img {
+        max-width: 840px;
+        margin-left: 60px;
+    }
+    /*
 sec04
 ----------------------------------------------------------- */
-/*
+    /*
 sec05
 ----------------------------------------------------------- */
-.sec05 h2 {
-  padding-top: calc(59% - 60px);
-}
-.sec05 h2:before{
-  padding-top: 59%;
-}
-/*
+    .sec05 h2 {
+        padding-top: calc(59% - 60px);
+    }
+    .sec05 h2:before {
+        padding-top: 59%;
+    }
+    /*
 sec06
 ----------------------------------------------------------- */
-.sec06 .white_box {
-  background-size: contain;
-}
-.sec06 .white_box p {
-  width: 55%;
-  text-shadow: 0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;
-}
-
-/*
+    .sec06 .white_box {
+        background-size: contain;
+    }
+    .sec06 .white_box p {
+        width: 55%;
+        text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+    }
+    /*
 sec07
 ----------------------------------------------------------- */
-
-/*
+    /*
 sec08
 ----------------------------------------------------------- */
-
-/*
+    /*
 sec09
 ----------------------------------------------------------- */
-/*
+    /*
 sec10
 ----------------------------------------------------------- */
-/*
+    /*
 sec11
 ----------------------------------------------------------- */
-
-/*
+    /*
 sec12
 ----------------------------------------------------------- */
-/*
+    /*
 sec13
 ----------------------------------------------------------- */
-/*
+    /*
 sec14
 ----------------------------------------------------------- */
-/*
+    /*
 sec15
 ----------------------------------------------------------- */
-/*
+    /*
 sec16
 ----------------------------------------------------------- */
-/*
+    /*
 sec17
 ----------------------------------------------------------- */
-/*
+    /*
 sec18
 ----------------------------------------------------------- */
-/*
+    /*
 sec19
 ----------------------------------------------------------- */
-/*
+    /*
 sec20
 ----------------------------------------------------------- */
-/*
+    /*
 Footer
 ----------------------------------------------------------- */
-footer .add p:nth-of-type(2) {
-  -ms-flex-preferred-size: 45%;
-  flex-basis: 45%;
-  max-width: 45%;
-}
-footer .add p:nth-of-type(3) {
-  -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
-  max-width: 30%;
-}
-footer .foot_area ul li {
-  min-width: 4em;
-}
-footer footer .footer_nav {
-  margin-top: 50px;
-  margin-bottom: 30px;
+    footer .add p:nth-of-type(2) {
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+        max-width: 45%;
+    }
+    footer .add p:nth-of-type(3) {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        max-width: 30%;
+    }
+    footer .foot_area ul li {
+        min-width: 4em;
+    }
+    footer footer .footer_nav {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 }
 
 
-}/*タブレット用スタイルend*/
+/*タブレット用スタイルend*/
