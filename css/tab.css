@@ -54,10 +54,13 @@ Header
     }
     header .contact .cta-top {
         height: 80px;
-        width: 195px;
+        width: 155px;
     }
     header button {
         font-size: 22px;
+    }
+    header .tel {
+        width: 245px;
     }
     /*
 Nav

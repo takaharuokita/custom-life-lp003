@@ -39,10 +39,6 @@ section {
     padding: 100px 0;
 }
 
-footer {
-    padding: 60px 0 40px;
-}
-
 h2 {
     margin-bottom: 45px;
     padding-bottom: 0;
@@ -218,11 +214,11 @@ header .contact {
     display: flex;
     align-items: center;
     text-align: right;
-    transform: translateX(280px);
+    transform: translateX(330px);
 }
 
 header .tel {
-    width: 210px;
+    width: 280px;
     padding-right: 15px;
     line-height: 1.1;
 }
@@ -261,9 +257,12 @@ header .tel_tit {
     margin-bottom: 10px;
 }
 
-@media screen and (min-width:1481px) and (max-width:1600px) {
+@media screen and (min-width:1481px) and (max-width:1680px) {
     header .logo {
         transform: translateX(-100px);
+    }
+    header .contact {
+        transform: translateX(150px);
     }
     header button {
         font-size: 32px;
@@ -284,7 +283,7 @@ header .tel_tit {
         width: 250px;
     }
     header .contact {
-        transform: translateX(75px);
+        transform: translateX(40px);
     }
 }
 
@@ -597,6 +596,7 @@ sec11
     min-height: 94px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .sec11_q:before {
@@ -775,7 +775,7 @@ sec13
 ----------------------------------------------------------- */
 
 .sec13 {
-    background: url(../img/pc_sec13_bg.png) no-repeat center top/cover;
+    background: url(../img/pc_sec13_bg.jpg) no-repeat center top/cover;
 }
 
 .sec13 table tr {
@@ -815,7 +815,7 @@ Footer
 ----------------------------------------------------------- */
 
 footer {
-    padding-top: 90px;
+    padding-top: 0px;
 }
 
 footer .add {
