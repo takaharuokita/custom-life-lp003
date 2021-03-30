@@ -1045,6 +1045,15 @@ footer .copy {
     justify-content: space-between;
     width: 20%;
     margin: 0 auto;
+    color: #7b7b7b;
+}
+
+.modal-waku div {
+    cursor: pointer;
+}
+
+.modal-waku h1 {
+    padding-top: 20px;
 }
 
 .modalArea {
@@ -1070,8 +1079,8 @@ footer .copy {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 960px;
     padding: 10px 30px;
     background-color: #fff;
 }
@@ -1079,8 +1088,9 @@ footer .copy {
 .closeModal {
     position: absolute;
     top: 0.5rem;
-    right: 1rem;
+    right: 1.8rem;
     cursor: pointer;
+    font-size: 30px;
 }
 
 #openModal {}
@@ -1111,17 +1121,51 @@ footer .copy {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 960px;
     padding: 10px 30px;
     background-color: #fff;
+    overflow-y: scroll;
 }
 
 .closeModal2 {
     position: absolute;
     top: 0.5rem;
-    right: 1rem;
+    right: 1.8rem;
     cursor: pointer;
+    font-size: 30px;
+}
+
+.modal-waku .modaltext {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.modal-waku table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+    /* セルの線を重ねる */
+}
+
+.modal-waku tr:nth-child(odd) {
+    background-color: #ddd;
+    /* 背景色指定 */
+}
+
+.modal-waku th {
+    padding: 1% 2%;
+    width: 20%;
+    font-size: 15px;
+    font-weight: bold;
+    /* 余白指定 */
+}
+
+.modal-waku td {
+    padding: 3% 4%;
+    /* 余白指定 */
 }
 
 @media screen and (min-width:1024px) and (max-width:1523px) {
@@ -1140,11 +1184,23 @@ footer .copy {
     /* モーダル     */
     .modal-waku {
         display: flex;
-        padding: 0px 0 15px;
+        padding: 20px 0 15px;
         justify-content: space-between;
-        width: 48%;
+        width: 60%;
         margin: 0 auto;
         font-size: 22px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    /* モーダル     */
+    .modal-waku {
+        display: flex;
+        padding: 0px 0 15px;
+        justify-content: space-between;
+        width: 52%;
+        margin: 0 auto;
+        font-size: 18px;
     }
 }
 
@@ -1153,7 +1209,13 @@ footer .copy {
         display: flex;
         padding: 0px 0 20px;
         justify-content: space-between;
-        width: 40%;
+        width: 62%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .modal-waku {
+        width: 70%;
     }
 }
